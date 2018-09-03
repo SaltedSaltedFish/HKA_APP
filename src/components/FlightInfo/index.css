@@ -1,0 +1,50 @@
+/*航班信息*/
+.details-flight {
+    /*max-height:3rem;*/
+    color:white;
+    padding:.25rem .3rem;
+    background: #c83a36;
+}
+.details-flight .flight-address div,.details-flight .flight-info {
+    text-align: center;
+}
+.details-flight .flight-top {
+    margin-bottom:.3rem;
+}
+
+.details-flight .flight-icon {
+    width: .72rem;
+    height:.72rem;
+    margin:0 auto;
+    background-image: url('../../../static/images/flight.png');
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+
+.flight-address .take-Ab {
+    font-size:.4rem;
+    font-weight: bold;
+    color:#ffefc7;
+    margin-bottom:.15rem;
+}
+.flight-address .take-Full {
+    margin-bottom: .1rem;
+}
+.flight-address .take-Full,.flight-address .take-time {
+    font-size:.2rem;
+    color:#ff8a8a;
+}
+
+
+.flight-bottom .flight-info {
+    font-size:.24rem;
+    color:#ffc4c4;
+}
+.flight-info .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    margin-top:.1rem;
+    min-height:.6rem;
+}

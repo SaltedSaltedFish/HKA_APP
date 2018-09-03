@@ -1,0 +1,143 @@
+.tabs.flight .am-tabs-content{
+    margin-top:2.3rem;
+}
+.tabs.flight .am-tabs-bar {
+    top:2rem;
+    padding: 0 .55rem 0;
+}
+.tabs.flight .am-list-view-scrollview {
+    height:64vh;
+}
+.remind .tabs.flight .am-list-view-scrollview {
+    height:60vh;
+}
+
+.flight-title {
+    font-size:.2rem;
+    color:#919191;
+    margin-bottom: .15rem;
+}
+.flight-title .am-flexbox-item {
+    text-align: center;
+}
+
+
+/*时间选择*/
+.datePicker {
+    position: fixed;
+    top:.88rem;
+    width: 100%;
+    height:1rem;
+    line-height: 1rem;
+    padding:0 .3rem;
+    text-align: center;
+    background: #f5f5f9;
+    /*z-index: 999;*/
+}
+.datePicker .datePicker-date {
+    font-size: .3rem;
+    font-weight: bold;
+}
+.datePicker .date-change {
+    position: absolute;
+    height:100%;
+    width: 2rem;
+    background-size: .17rem .3rem;
+    background-position-x:50%;
+    background-position-y:.35rem ;
+    background-repeat: no-repeat;
+}
+.datePicker .date-increase {
+    background-image: url('../../../../static/images/link.png');
+    text-align: right;
+    right:0;
+}
+.datePicker .date-reduce {
+    background-image: url('../../../../static/images/link-mirror.png');
+    text-align: left;
+    left:0;
+}
+
+/*变更提醒*/
+.remind .tabs.flight .am-tabs-content {
+    margin-top:2.9rem;
+}
+.remind .mation-bottom {
+    position: fixed;
+    top:.88rem;
+    right: 0;
+    width: 100%;
+    /*top: 3rem;*/
+    /*padding: 0 .3rem;*/
+    padding:0;
+    margin:0;
+}
+.remind .mation-bottom .mation-list {
+    position: relative;
+    margin-bottom: 0;
+    border-radius: 0;
+    color: #cd4a42;
+    height:auto;
+    /*border:solid #d9cab6 1PX;*/
+    background: #fff3b2;
+    padding: .1rem .85rem .1rem .3rem;
+}
+.remind .mation-bottom .mation-list p {
+    padding:0;
+}
+.remind .mation-badge {
+    background: #c83a36;
+    line-height: .38rem;
+}
+/*变更*/
+.remind .datePicker,.remind .mation-bottom {
+    position: relative;
+    top:0;
+    right:0;
+}
+
+.departuresone{
+    background-color: white;
+    padding: 0.3rem;
+    font-size: 0.28rem;
+}
+
+
+ .departuresone .am-flexbox .am-flexbox-item {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+     margin-left: 0
+}
+.departurestwo{
+    background-color:#e5e4e9;
+    margin-bottom:0.2rem;
+    padding:0.3rem;
+    font-size: 0.28rem;
+}
+.hkatosk{
+    width:1.5rem;
+    height:0.2rem;
+    background-image: url('../../../../static/images/flight/flight_jiantou.svg');
+    background-repeat: no-repeat;
+    float: left;
+    margin-left: 0.15rem;
+}
+
+.fltno{
+    color: #b3b3b3;
+}
+.fltid{
+    color: #000000;
+}
+.hka{
+    float: left;
+    height:auto;
+}
+.sk{
+    float: left;
+    margin-left: 0.15rem;
+    height:auto;
+}

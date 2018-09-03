@@ -1,0 +1,52 @@
+#common-header {
+    position: fixed;
+    top:0;
+    width: 100%;
+    height:.88rem;
+    line-height: .88rem;
+    color: #fff;
+    text-align: center;
+    z-index: 2000;
+    background: #c83a36;
+}
+#common-header div>a {
+    display: block;
+    width: 100%;
+    height:100%;
+}
+
+#common-header .title {
+    font-size:.4rem;
+    height: 100%;
+}
+#common-header .back {
+    position: absolute;
+    left:0;
+    top:0;
+    height:100%;
+    width: 1rem;
+    background: url('../../../static/images/back.png') no-repeat 50%;
+    background-size: .21rem .41rem;
+    z-index: 99999;
+}
+#common-header .icon-addSms {
+    right: 0;
+    width: .85rem;
+    height: 100%;
+}
+
+/*日期*/
+#common-header .datePicker {
+    position: relative;
+    top:0;
+    margin:0 auto;
+    width: 4rem;
+    height: 100%;
+    line-height: .88rem;
+
+    background: transparent;
+}
+#common-header .datePicker .datePicker-date {
+    font-size: .4rem;
+    font-weight: normal;
+}

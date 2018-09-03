@@ -1,0 +1,12 @@
+.bg {
+    box-sizing: border-box;
+    padding-top:.88rem;
+    padding-bottom:.97rem;
+    overflow: auto;
+    box-shadow: -5PX 0 10PX rgba(0,0,0,.18);
+}
+
+.bg.padding {
+    padding-left:.3rem;
+    padding-right:.3rem;
+}

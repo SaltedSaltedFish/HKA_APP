@@ -1,0 +1,88 @@
+.login {
+    position: relative;
+}
+.login .icon{
+    position: absolute;
+    top:.25rem;
+    left:.43rem;
+    width:.36rem;
+    height:.36rem;
+    background-size: .36rem;
+}
+.icon-user {
+    background: url('../../../static/images/login/usericon.png') no-repeat;
+}
+.icon-password {
+    background: url('../../../static/images/login/pwicon.png') no-repeat;
+}
+.login .logo {
+    width: 100%;
+    margin-top:1.66rem;
+    height:1.8rem;
+    background: url('../../../static/images/login/login.png') no-repeat 50%;
+    background-size: 1.8rem;
+
+}
+.login-input {
+    width: 100%;
+    margin-top:1.7rem;
+}
+.login-input input {
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 0 0 0 1rem;
+    height: 100%;
+    border-radius: .5rem;
+}
+.login-input input.uppercase {
+    text-transform: uppercase;
+}
+
+.login .group-input,.login .group-button {
+    position: relative;
+    width: 5.6rem;
+    height:.9rem;
+    line-height: .9rem;
+    margin:0 auto;
+    text-align: center;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+.login .group-input span {
+    position: absolute;
+}
+
+.login .group-input {
+    background: white;
+    margin-bottom:.2rem;
+}
+.login .group-button {
+    color:white;
+    margin-top:.75rem;
+    /*background: #c83a36;*/
+}
+.login .am-button {
+    height:.9rem;
+    line-height: .9rem;
+    color:white;
+    background-color: #c83a36;
+    border: none;
+}
+.login .am-button.am-button-active {
+    background-color: #af3733;
+}
+.login .am-button.am-button-disabled {
+    color: #bbb;
+    background-color: #ddd;
+    border: 0;
+}
+p.help {
+    position: absolute;
+    bottom:.65rem;
+    font-size: .3rem;
+    /*font-family:'Microsoft YaHei';*/
+    width: 100%;
+    text-align: center;
+    color:#9b9b9b;
+}

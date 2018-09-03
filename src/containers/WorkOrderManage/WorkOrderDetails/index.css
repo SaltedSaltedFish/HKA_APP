@@ -1,0 +1,160 @@
+.details-top {
+    background: #c83a36;
+}
+.details-fight,.details-work,.details-action {
+    padding:.3rem;
+}
+.details-relation {
+    position: relative;
+    font-size:.3rem;
+    height:.8rem;
+    padding-left:.3rem;
+    line-height: .8rem;
+    color:white;
+    background: #b52d2a;
+}
+.details-relation .icon.icon-list- {
+    border-color: gainsboro;
+    top: 0.3rem;
+    transform: rotate(-45deg);
+}
+
+/*!*航班信息*!*/
+/*.details-flight {*/
+    /*height:3rem;*/
+    /*color:white;*/
+    /*padding:.25rem .3rem;*/
+/*}*/
+/*.details-flight .flight-address div,.details-flight .flight-info {*/
+    /*text-align: center;*/
+/*}*/
+/*.details-flight .flight-top {*/
+    /*margin-bottom:.3rem;*/
+/*}*/
+
+/*.details-flight .flight-icon {*/
+    /*width: .72rem;*/
+    /*height:.72rem;*/
+    /*margin:0 auto;*/
+    /*background-image: url('../../../../static/images/flight.png');*/
+    /*background-size:100%;*/
+    /*background-repeat: no-repeat;*/
+/*}*/
+
+/*.flight-address .take-Ab {*/
+    /*font-size:.4rem;*/
+    /*font-weight: bold;*/
+    /*color:#ffefc7;*/
+    /*margin-bottom:.15rem;*/
+/*}*/
+/*.flight-address .take-Full {*/
+    /*margin-bottom: .1rem;*/
+/*}*/
+/*.flight-address .take-Full,.flight-address .take-time {*/
+    /*font-size:.2rem;*/
+    /*color:#ff8a8a;*/
+/*}*/
+
+/*.flight-bottom .flight-info {*/
+    /*font-size:.24rem;*/
+    /*color:#ffc4c4;*/
+/*}*/
+/*.flight-info .info {*/
+    /*color:white;*/
+    /*margin-top:.25rem;*/
+/*}*/
+
+/*列表*/
+.details-bottom {
+    padding:.2rem .3rem 0;
+}
+.details-bottom .am-list-item {
+    background: transparent;
+}
+.details-bottom .am-list-item .am-list-line .am-list-brief {
+    white-space: normal;
+}
+
+/*按钮*/
+.details-action {
+    padding-top:.35rem;
+}
+
+.details-action .action {
+    font-size:.3rem;
+    text-align: center;
+    color:#c83a36;
+    padding:.2rem .1rem;
+    border-radius: .5rem;
+    border:1PX solid #c83a36;
+}
+
+
+/*普通员工-工作列表*/
+.details-workInfo {
+    padding:0 .3rem;
+    margin-top:.5rem;
+}
+.details-workInfo h2 {
+    font-size: .25rem;
+    font-weight: bold;
+    color:black;
+}
+.details-workInfo .workInfo-container {
+    margin-top:.3rem;
+    background: white;
+    border-radius: .1rem;
+}
+.workInfo-container .workInfo-list {
+    font-size:.2rem;
+    color:#756464;
+    padding:.2rem;
+    border-bottom:1PX dashed #ac8989;
+}
+.workInfo-container .workInfo-list:last-child {
+    border-bottom: none;
+}
+.workInfo-container .workInfo-list .list-title {
+    overflow: hidden;
+    line-height: .45rem;
+}
+.workInfo-container .workInfo-list .list-title > div {
+    margin-right:.6rem;
+    float: left;
+}
+.workInfo-container .workInfo-list .list-title > div:last-child {
+    margin:0;
+}
+.workInfo-container .workInfo-list .title-info {
+    color:black;
+}
+
+/*管理员描述*/
+.details-description {
+    font-size:.21rem;
+    padding:.2rem;
+    border:solid 1PX #bebbc7;
+    border-radius: 5PX;
+    background:#f4f3f8;
+    line-height: .45rem;
+}
+.details-description .list-color2 {
+    color: #9b9a9b;
+}
+
+/*头部*/
+.transmit.icon-task {
+    position: fixed;
+    top:0;
+    right:0;
+    z-index: 2001;
+    width:.85rem;
+    height:.88rem;
+    /*background: url('../../../../static/images/index/task.png') no-repeat .2rem .25rem;*/
+    background-size:.42rem .36rem;
+}
+.transmit.icon-task a {
+    display: block;
+    width: 100%;
+    height:100%;
+}

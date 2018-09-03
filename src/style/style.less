@@ -1,0 +1,90 @@
+@background:#c83a36;
+@time:.1s;
+
+.f5f5f9(){
+	background: #f5f5f9;
+}
+
+/*路由切换动画——左移动*/
+//.left-enter {
+//	width: 100%;
+//	position: absolute;
+//	top: 0;
+//	z-index: 10000;
+//	opacity: 0;
+//	.f5f5f9;
+//	transform: translateX(100%);
+//}
+//
+//.left-enter.left-enter-active {
+//	width: 100%;
+//	opacity: 1;
+//	transition: all @time ease-out;
+//	transform: translateX(0);
+//}
+//
+//.left-leave {
+//	width: 100%;
+//	.f5f5f9;
+//	opacity: 1;
+//	transform: translateX(0);
+//}
+//
+//.left-leave.left-leave-active {
+//	width: 100%;
+//	opacity: 1;
+//	transition: all @time ease-out;
+//}
+
+.left-enter {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	z-index: 10000;
+	opacity: 0;
+	.f5f5f9;
+}
+
+.left-enter.left-enter-active {
+	width: 100%;
+	opacity: 1;
+	transition: all @time ease-out;
+}
+
+.left-leave {
+	width: 100%;
+	.f5f5f9;
+	opacity: 1;
+}
+
+.left-leave.left-leave-active {
+	width: 100%;
+	opacity: 0;
+	transition: all @time ease-out;
+}
+
+/*路由切换动画——右移动*/
+.right-enter {
+	width: 100%;
+	.f5f5f9;
+}
+
+.right-enter.right-enter-active {
+	width: 100%;
+	transition: all @time ease-out;
+}
+
+.right-leave {
+	width: 100%;
+	.f5f5f9;
+	position: absolute;
+	top: 0;
+	z-index: 10000;
+	opacity: 1;
+}
+
+.right-leave.right-leave-active {
+	width: 100%;
+	opacity: 0;
+	transition: all @time ease-out;
+}

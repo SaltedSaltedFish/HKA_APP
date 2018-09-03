@@ -1,0 +1,120 @@
+/*人员列表*/
+.peopleContainer {
+    padding:0 .3rem;
+    height:100%;
+    overflow: hidden;
+}
+.people-group {
+    background: white;
+    border-radius: .1rem;
+    margin-bottom: .3rem;
+}
+.people-group h2 {
+    height:.82rem;
+    line-height: .82rem;
+    color:#c83a36;
+    padding-left:.25rem;
+}
+.skill-group .skill-title {
+    font-size:.2rem;
+    height:.6rem;
+    line-height: .6rem;
+    background: #e6e2ee;
+    color:black;
+    padding-left:.25rem;
+}
+.skill-group .skill-people {
+    font-size:.22rem;
+    padding:.2rem .3rem .3rem;
+}
+.skill-group .skill-people * {
+    pointer-events: none;
+}
+
+.skill-group .skill-people .skill-info {
+    position: relative;
+    height: .72rem;
+    line-height: .72rem;
+}
+.skill-group .skill-people .skill-info p {
+    padding-left:.95rem;
+    color:#74707c;
+}
+.skill-people .skill-head,.skill-people .skill-select {
+    position: absolute;
+}
+.skill-people .skill-head {
+    top:0;
+    left:0;
+    display: inline-block;
+    width:.72rem;
+    height:.72rem;
+    border-radius: 50%;
+    border:1PX solid #c93e3a;
+    background: url('../../../static/images/287251719018053570.png') no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+}
+.skill-people .skill-head img {
+    width: 100%;
+}
+.skill-people .skill-select {
+    top:0;
+    right:0;
+    display: inline-block;
+    width:.5rem;
+    height:.5rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.skill-people.default .skill-select {
+    background-image: url('../../../static/images/peopleSelect/default.png');
+}
+.skill-people.selected .skill-select {
+    background-image: url('../../../static/images/peopleSelect/selected.png');
+}
+
+
+/*tab样式*/
+.tabs.people .am-tabs-content{
+    margin-top:2.3rem;
+    height: 69vh;
+    overflow: auto;
+}
+.tabs.people .am-tabs-bar {
+    top:2rem;
+    padding: 0 .55rem 0;
+}
+.tabs.people .am-tabs-bar .am-tabs-tab {
+    background-repeat: no-repeat;
+    background-position-y:.22rem;
+}
+.tabs.people .am-tabs-bar .am-tabs-tab:nth-child(2) {
+    background-position-x: .7rem;
+    background-image: url('../../../static/images/peopleSelect/day.png');
+    background-size: .32rem;
+}
+.tabs.people .am-tabs-bar .am-tabs-tab:last-child {
+    background-image: url('../../../static/images/peopleSelect/evening.png');
+    background-position-x: .45rem;
+    background-size: .22rem .3rem;
+}
+
+.manual-select.personal .mation-bottom {
+    padding:0;
+}
+
+.personselect select{
+    position: relative;
+    width: 100%;
+    margin-bottom: .2rem;
+    border-radius: .1rem;
+    height:1rem;
+    color:black;
+    background: white;
+}
+.perpadding {
+    padding-left: .3rem;
+    padding-right: .3rem;
+    overflow: hidden;
+}

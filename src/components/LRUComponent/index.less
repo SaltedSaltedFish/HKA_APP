@@ -1,0 +1,107 @@
+@import "../../style/adaptatio.less";
+
+.lru {
+	position: relative;
+	.font28;
+	width: 100%;
+	padding:.2rem;
+	background: white;
+	border-radius: 8PX;
+	margin-top:.4rem;
+}
+.lru .am-activity-indicator.am-activity-indicator-toast {
+	position: absolute;
+	background: rgba(0, 0, 0, .3);
+}
+.lru .list-operation {
+	display: none;
+}
+.lru.delete .list-operation {
+	display: flex;
+}
+.lruList {
+	position: relative;
+	background: #f9f8f8f2;
+	margin-bottom: .12rem;
+}
+
+.lruList .lruLine:not(:last-child) {
+	border-bottom: solid 1PX #CECECE;
+}
+.lruLine {
+	display: block;
+	padding:.3rem .25rem .22rem;
+	margin:0 .25rem;
+	overflow: hidden;
+}
+.lruLine input {
+	width: 100%;
+	height: 100%;
+	background: transparent;
+}
+.lruLine p {
+	float: left;
+	height: .4rem;
+	line-height: .4rem;
+}
+.lruLine p.title {
+	width: 25%;
+	padding-right: .2rem;
+	color: #999999;
+	text-align: center;
+}
+.lruLine .content {
+	width: 75%;
+	color: black;
+}
+
+.lruButton {
+	display: flex;
+	justify-content: space-between;
+	width: 56.533%;
+	line-height: .42rem;
+	margin:.18rem auto 0;
+	color: #999999;
+	white-space: nowrap;
+}
+.lruButton-item {
+	position: relative;
+	height:.92rem;
+	padding-top:.52rem;
+}
+.lruButton .icon {
+	top:0;
+	width: 100%;
+	background-position-x: 50%;
+}
+
+.lruButton .icon-lruScanning {
+	background-size: .42rem;
+}
+.lruButton .icon-lruSave {
+	background-size: .42rem;
+}
+.lruButton .icon-lruDelete {
+	background-size: .44rem .43rem;
+}
+
+
+.scaLru {
+	position: fixed;
+	left:0;
+	top:0;
+	width: 100%;
+	z-index: 2001;
+}
+
+.text-prompt {
+	.font28;
+	padding: .2rem;
+	color: #f76a24;
+	text-align: left;
+}
+
+/*禁用*/
+.group-input.disabled {
+	background: #e4e3e8;
+}

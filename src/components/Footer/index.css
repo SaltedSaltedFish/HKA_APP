@@ -1,0 +1,22 @@
+.footer {
+    position: fixed;
+    left:0;
+    bottom:0;
+    font-size:.3rem;
+    width: 100%;
+    background: #312f35;
+    height:.95rem;
+    line-height: .95rem;
+    text-align: center;
+    color:white;
+}
+.footer .footer-container {
+    overflow: hidden;
+}
+.footer .footer-container div {
+    float: left;
+    width: 50%;
+}
+.footer .footer-container div.feedback {
+    background: #403e45;
+}

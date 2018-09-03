@@ -1,0 +1,147 @@
+/*!*头部*!*/
+/*#common-header .icon {*/
+    /*top:0;*/
+/*}*/
+/*#common-header .icon-scanning {*/
+    /*width: .85rem;*/
+    /*height:100%;*/
+    /*left:0;*/
+    /*background: url('../../../../static/images/index/scanning.png') no-repeat .3rem .25rem;*/
+    /*background-size: .36rem;*/
+/*}*/
+/*#common-header .icon-task {*/
+    /*width:.85rem;*/
+    /*height:100%;*/
+    /*right:0;*/
+    /*background: url('../../../../static/images/index/task.png') no-repeat .2rem .25rem;*/
+    /*background-size:.42rem .36rem;*/
+/*}*/
+/*#common-header .icon-search {*/
+    /*width:.85rem;*/
+    /*height:100%;*/
+    /*!*right:.85rem;*!*/
+    /*right:.2rem;*/
+    /*background: url('../../../../static/images/search.png') no-repeat 50% .25rem;*/
+    /*background-size:.36rem;*/
+/*}*/
+/*.icon-filter {*/
+    /*background-image: url('../../../../static/images/icon/filter.png');*/
+/*}*/
+
+/*.search {*/
+    /*position: relative;*/
+    /*height: 100%;*/
+    /*margin:0 .85rem;*/
+    /*padding: .1rem 0;*/
+/*}*/
+/*.search .search-container {*/
+    /*background: #d7716e url('../../../../static/images/search.png') no-repeat .27rem .17rem;*/
+    /*background-size: .36rem;*/
+    /*height: 100%;*/
+    /*line-height: .7rem;*/
+    /*border-radius: 0.5rem;*/
+/*}*/
+/*.search .search-container from ,.search .search-container input{*/
+    /*width: 100%;*/
+    /*display: block;*/
+    /*height: 100%;*/
+/*}*/
+/*.search .search-container from {*/
+    /*padding-left: .8rem;*/
+/*}*/
+/*.search input {*/
+    /*background: none;*/
+    /*border: none;*/
+    /*color:white;*/
+/*}*/
+/*.search .icon-search {*/
+    /*left:0;*/
+    /*top:0;*/
+/*}*/
+/*!*筛选*!*/
+/*.filterContainer {*/
+    /*display: none;*/
+    /*position: absolute;*/
+    /*top:.88rem;*/
+    /*right:.1rem;*/
+    /*width: 3.95rem;*/
+    /*background: white;*/
+    /*border-radius: 5PX;*/
+    /*box-shadow: 0 0 7PX rgba(34, 34, 34, 0.2);*/
+/*}*/
+/*.filterContainer li {*/
+    /*position: relative;*/
+    /*line-height: 1rem;*/
+    /*background-position: .3rem;*/
+    /*background-repeat: no-repeat;*/
+    /*padding-left:1.15rem;*/
+/*}*/
+/*.filterContainer li .icon {*/
+    /*display: none;*/
+/*}*/
+/*.filterContainer li.filterActive .icon {*/
+    /*display: block;*/
+/*}*/
+/*.filterContainer li p {*/
+    /*border-bottom:solid 1PX #e3e3e3;*/
+/*}*/
+/*.filterContainer li * {*/
+    /*pointer-events: none;*/
+/*}*/
+/*.filterContainer li:last-child p {*/
+    /*border:none;*/
+/*}*/
+/*.filterContainer .ONGOING {*/
+    /*background-size: .4rem .4rem;*/
+/*}*/
+/*.filterContainer .DELAYED {*/
+    /*background-size: .41rem .37rem;*/
+/*}*/
+/*.filterContainer .HANDOVER {*/
+    /*background-size: .4rem .39rem;*/
+/*}*/
+/*.filterContainer .OVERDUE {*/
+    /*background-size: .4rem .4rem;*/
+/*}*/
+/*.filterContainer .icon-click {*/
+    /*top:.35rem;*/
+    /*right:.35rem;*/
+    /*width: .3rem;*/
+    /*height:.2rem;*/
+    /*background-size: .3rem .2rem;*/
+/*}*/
+/*.icon-click {*/
+    /*background: url('../../../../static/images/icon/click.png') no-repeat;*/
+/*}*/
+/*!*修改tab页*!*/
+/*.tabs .am-tabs-bar {*/
+    /*padding:.3rem .55rem .2rem;*/
+    /*position: fixed;*/
+/*}*/
+/*.tabs .am-tabs-content {*/
+    /*margin-top:1.28rem;*/
+/*}*/
+/*.tabs .am-tabs-tab {*/
+    /*font-size:.3rem;*/
+    /*width:2.8rem;*/
+    /*height:.76rem;*/
+    /*line-height: .76rem;*/
+    /*border:none;*/
+    /*color:white;*/
+    /*background: #9a96a2;*/
+    /*border-radius: .5rem;*/
+/*}*/
+/*.tabs .am-tabs-ink-bar {*/
+    /*background-color:transparent;*/
+    /*height:0;*/
+/*}*/
+/*.tabs .am-tabs-bar .am-tabs-tab {*/
+    /*margin-right:.2rem;*/
+/*}*/
+/*.tabs .am-tabs-bar div:last-child.am-tabs-tab {*/
+    /*margin: 0;*/
+/*}*/
+/*.tabs .am-tabs-bar .am-tabs-tab-active {*/
+    /*background: #c83a36;*/
+/*}*/
+

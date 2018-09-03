@@ -1,0 +1,63 @@
+@import "../../style/adaptatio.less";
+
+@c83a36:#c83a36;
+/*后续航班信息*/
+.next-acflight {
+	background: white;
+	box-shadow: 0 1PX 5PX #ccc;
+	.take-Ab {
+		color:@c83a36;
+	}
+	.take-Full,.take-time {
+		color:#666666;
+	}
+	.flight-info,.flight-info .info {
+		color:#333333;
+	}
+	
+	.next-flight {
+		padding-bottom: .1rem;
+		font-size: .4rem;
+		font-weight: bold;
+		color: @c83a36;
+		text-align: center;
+	}
+}
+
+.lm-state-list {
+	padding:.2rem .2rem 0;
+	background: white;
+	border-radius: 5PX;
+	p {
+		text-align: left;
+	}
+	p.title {
+		border-bottom: 1PX solid #efefef;
+		line-height: .5rem;
+	}
+	p.dec {
+		overflow: hidden;
+		line-height: .9rem;
+		.font24;
+		.total {
+			color:#666666;
+		}
+		.Unfinished {
+			float: right;
+			color:@c83a36;
+		}
+	}
+}
+
+.flight-info {
+	span {
+		display: block;
+		&.top {
+			//margin-bottom: .1rem;
+			min-height: .06rem;
+		}
+	}
+	.single {
+		line-height: .6rem;
+	}
+}

@@ -1,0 +1,22 @@
+.modification {
+    background: white;
+    border-radius: .1rem;
+    padding-bottom: .15rem;
+    margin:.3rem 0;
+}
+.modification-title {
+    font-size:.22rem;
+    height:.92rem;
+    line-height: .92rem;
+    color:#c83a36;
+    border-bottom: 1PX solid #ecbcba;
+    padding-left:.3rem;
+}
+.modification-list {
+    padding:0 .3rem;
+}
+.modification-list .from-input .group-input {
+    border:none;
+    border-bottom: 1PX solid #e4e3e8;
+    border-radius: 0;
+}

@@ -1,0 +1,18 @@
+.added .am-tabs-ink-bar {
+    background: white;
+}
+.added .am-tabs-bar .am-tabs-tab {
+    border-color:#c83a36;
+    background-color: #c83a36;
+    color:#ffc4c4;
+}
+.added .am-tabs-bar .am-tabs-tab-active {
+    color:white;
+}
+.added-container {
+    padding:.3rem .3rem 0;
+}
+
+.nrcList .am-list-view-scrollview{
+    height:88vh;
+}

@@ -1,0 +1,76 @@
+.am-tab-bar-bar {
+    height:.97rem;
+    border:none;
+}
+.index .bg {
+    background: url('../../../static/images/home.jpg') no-repeat;
+    background-size: 100% 100%;
+}
+/*.unIndex .am-tab-bar-tab-active>div,.index .am-tab-bar-tab-active>div{*/
+    /*background: rgba(176, 53, 51, 0.15);*/
+    /*box-shadow: 0px 5px 14px 1px rgba(176, 53, 51,.15);*/
+/*}*/
+.am-tab-bar-bar .am-tab-bar-tab-image {
+    width:.46rem;
+    height:.46rem;
+}
+/*因无法打包图片，故写进css*/
+.am-tab-bar-bar .am-tab-bar-tab-icon img{
+    display: none;
+}
+
+/*tab*/
+#root .am-tab-bar-bar .am-tab-bar-tab > div {
+    height:.95rem;
+    width: 100%;
+    background-size: .46rem;
+    background-position: 50% 20%;
+}
+#root .am-tab-bar-bar .am-tab-bar-tab-title {
+    margin: 0.6rem 0 0 0;
+}
+.am-tab-bar-bar [data-index='index']{
+    background: url('../../../static/images/home/home.png') no-repeat;
+
+}
+.am-tab-bar-bar [data-index='log']{
+    background: url('../../../static/images/home/log.png') no-repeat;
+
+}
+.am-tab-bar-bar [data-index='flight']{
+    background: url('../../../static/images/home/flight.png') no-repeat;
+
+}
+.am-tab-bar-bar [data-index='search']{
+    background: url('../../../static/images/home/search.png') no-repeat;
+
+}
+.am-tab-bar-bar [data-index='myself']{
+    background: url('../../../static/images/home/myself.png') no-repeat;
+
+}
+/*选中效果*/
+.am-tab-bar-bar .am-tab-bar-tab.am-tab-bar-tab-active [data-index='index'] {
+    background: url('../../../static/images/home/home-active.png') no-repeat;
+}
+.am-tab-bar-bar .am-tab-bar-tab.am-tab-bar-tab-active [data-index='log'] {
+    background: url('../../../static/images/home/log-active.png') no-repeat;
+}
+.am-tab-bar-bar .am-tab-bar-tab.am-tab-bar-tab-active [data-index='flight'] {
+    background: url('../../../static/images/home/flight-active.png') no-repeat;
+}
+.am-tab-bar-bar .am-tab-bar-tab.am-tab-bar-tab-active [data-index='search'] {
+    background: url('../../../static/images/home/search-active.png') no-repeat;
+}
+.am-tab-bar-bar .am-tab-bar-tab.am-tab-bar-tab-active [data-index='myself'] {
+    background: url('../../../static/images/home/myself-active.png') no-repeat;
+}
+
+.am-tab-bar-bar .am-tab-bar-tab.am-tab-bar-tab-active {
+    background: url('../../../static/images/home/active.png') no-repeat;
+    background-size: 100%;
+}
+/*徽标*/
+.am-badge-text {
+    width: .36rem;
+}

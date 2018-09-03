@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_delete</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="scan" transform="translate(-669.000000, -1671.000000)">
+            <g id="icon_delete" transform="translate(669.000000, 1671.000000)">
+                <circle id="Oval-3" fill="#F45853" cx="19" cy="19" r="19"></circle>
+                <path d="M20,18 L20,10 C20,9.44771525 19.5522847,9 19,9 C18.4477153,9 18,9.44771525 18,10 L18,10 L18,18 L10,18 C9.44771525,18 9,18.4477153 9,19 C9,19.5522847 9.44771525,20 10,20 L18,20 L18,28 C18,28.5522847 18.4477153,29 19,29 C19.5522847,29 20,28.5522847 20,28 L20,20 L28,20 C28.5522847,20 29,19.5522847 29,19 C29,18.4477153 28.5522847,18 28,18 L20,18 Z" id="Combined-Shape" fill="#FFFFFF" transform="translate(19.000000, 19.000000) rotate(-315.000000) translate(-19.000000, -19.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

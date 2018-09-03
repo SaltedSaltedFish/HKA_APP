@@ -1,0 +1,45 @@
+.application .am-list-view-scrollview{
+    height:84vh;
+}
+
+.applicationButton {
+    margin-bottom:.6rem;
+}
+.applicationButton .button {
+    position: relative;
+    height:.9rem;
+    line-height: .9rem;
+    border-radius: .5rem;
+}
+.button-reject {
+    font-size:.35rem;
+    color:#a4a4a4;
+    padding-left:1.2rem;
+    background: #312f35;
+}
+.button-reject .icon {
+    left:.68rem;
+    top:.23rem;
+}
+.button-approval {
+    font-size:.35rem;
+    color:white;
+    padding-left:.9rem;
+    background: #c83a36;
+}
+.button-approval .icon {
+    left:.38rem;
+    top:.23rem;
+}
+
+.icon-reject {
+    width:.4rem;
+    height:.4rem;
+    background-image: url('../../../../static/images/icon/reject.png');
+}
+
+.icon-approval {
+    width:.4rem;
+    height:.4rem;
+    background-image: url('../../../../static/images/icon/approval.png');
+}

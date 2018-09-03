@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_alarm</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-45.000000, -666.000000)">
+            <g id="icon_alarm" transform="translate(46.000000, 667.000000)">
+                <circle id="Oval" stroke="#C83A36" stroke-width="2" cx="19" cy="19" r="19"></circle>
+                <path d="M19,8 C19.8436418,8 20.5127866,8.44771525 20.4945768,9 L20.0329718,23 C20.014762,23.5522847 19.5522847,24 19,24 C18.4477153,24 17.985238,23.5522847 17.9670282,23 L17.5054232,9 C17.4872134,8.44771525 18.1563582,8 19,8 Z" id="Rectangle" fill="#C83A36"></path>
+                <circle id="Oval-2" fill="#C83A36" cx="19" cy="28" r="2"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

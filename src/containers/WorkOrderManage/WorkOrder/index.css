@@ -1,0 +1,50 @@
+.workSelect .manual-select {
+    top:2.05rem;
+}
+.workSelect .manual-select .mation-bottom {
+    padding:0;
+    margin:0;
+}
+.workSelect .tabs .am-tabs-bar {
+    width: 100%;
+    padding: .3rem .3rem .2rem;
+}
+.workSelect .tabs.special .am-tabs-content {
+    margin-top:2.98rem;
+}
+
+.workSelect .tabs.special .am-list-view-scrollview {
+    height:63vh;
+}
+.workSelect .mation-list input {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.workSelect .mation-list .am-list {
+    position: relative;
+    bottom:.1rem;
+}
+.workSelect .am-list-item.am-input-item {
+    height:auto;
+    min-height:0;
+}
+.workSelect .am-list-body:after {
+    display: none;
+}
+.workSelect .mation-bottom .mation-list {
+    padding:.1rem;
+    height:.7rem;
+}
+.workSelect .am-button {
+    height:.7rem;
+    line-height: .7rem;
+}
+.workSelect .datePicker {
+    top:2.8rem;
+}
+
+.workSelect .tabs .am-tabs-tab {
+    width:1rem;
+}
+

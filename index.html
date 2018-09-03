@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no,user-scalable=no">
+    <meta name="theme-color" content="#000000">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*.ttlsa.com">
+    <title>App</title>
+    <script>
+        //var fontSize =  document.documentElement.clientWidth / 7.5 < 80?(document.documentElement.clientWidth / 7.5):80;
+    	document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + 'px';
+    </script>
+    <link rel="stylesheet" href="dist/bundle.css"/>
+</head>
+<body>
+    <div id="root" style="height:100%;"></div>
+</body>
+<script>
+    //var httpRequest="http://192.168.130.68:8080/";
+    var httpRequest = (!localStorage.HTTP || localStorage.HTTP == '' || localStorage.HTTP =='null' || localStorage.HTTP =='undefined')?
+	    'http://111.230.146.15/regularlycheck/':localStorage.HTTP;
+	//var httpRequest = 'http://111.230.146.15/regularlycheck/';
+    //var httpRequest = 'http://123.207.83.197:9527/regularlycheck/';
+    var tabName = 'index';
+    var tabs = tabName; //  暂时作为home页面tab的展开状态记录
+    var StateHeight = document.documentElement.clientHeight;
+    var MS = 200;   //  延迟
+
+    //console.log(document.documentElement.clientWidth,document.documentElement.clientHeight);
+</script>
+<script src="dist/bundle.js"></script>
+</html>

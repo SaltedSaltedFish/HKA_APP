@@ -1,0 +1,148 @@
+.from-input {
+    padding-top:.3rem;
+}
+.from-input input,.from-input .group-input textarea {
+    border:none;
+    padding:0;
+}
+.from-input .group-input textarea {
+    resize: none;
+}
+/*标题*/
+.from-input .group-input p,.from-input .group-input span {
+    color:#b5b4bc;
+    font-size:.2rem;
+}
+
+
+.from-input .group-input {
+    position: relative;
+    display: block;
+    line-height: .5rem;
+    background: white;
+    border-radius: .1rem;
+    border:1PX solid #e4e3e8;
+    padding:.2rem .25rem;
+    margin-bottom:.2rem;
+}
+.from-input .group-input.Uppercase input {
+    text-transform: Uppercase;
+}
+.from-input .group-input.disabled {
+    background: #f9f8f8f2;
+    border: 1PX solid #f9f8f8f2;
+}
+.from-input .group-input.disabled span {
+    color:#999999;
+}
+/*箭头*/
+.from-input .group-input .icon-list-,.details-relation .icon-list- {
+    width: .2rem;
+    height: .2rem;
+    border: 1PX solid rgb(210,100,98);
+    top: .25rem;
+    right: .3rem;
+    border-left: none;
+    border-top: none;
+    transform: rotate(45deg);
+    padding:0;
+}
+.from-input .group-input span:not(.icon) {
+    position: absolute;
+    left:.25rem;
+}
+.from-input .group-input .am-textarea-count ,.from-input .group-input .am-textarea-count span {
+    position: relative;
+    left:0;
+}
+.from-input .group-input input:disabled,.from-input .group-input input {
+    background: transparent;
+}
+.from-input .group-input input,.from-input .group-input.input-date>div {
+    width:100%;
+    padding-left:1.2rem;
+}
+.from-input .group-input.modify>div {
+    padding-left:0;
+}
+
+.from-input .group-input p {
+    margin-bottom: .2rem;
+}
+
+/*按钮*/
+.from-input .group-button {
+    overflow: hidden;
+    text-align: center;
+    margin-top:.4rem;
+}
+.from-input .group-button .button {
+    font-size:.3rem;
+    display: inline-block;
+    color:white;
+    padding:0 1.3rem;
+    height:.9rem;
+    line-height: .9rem;
+    background: #312f35;
+    border-radius: .5rem;
+}
+.from-input .group-button .button.red {
+    background: rgb(200, 58, 54);
+    margin-top:.3rem;
+}
+.from-input .blgroup-input {
+    position: relative;
+    background: white;
+    border-radius: .1rem;
+    border:1PX solid #e4e3e8;
+    padding:.2rem .25rem;
+    margin-bottom:.2rem;
+    color:#b5b4bc;
+    font-size:.2rem;
+    width: 48%;
+    float: left;
+}
+
+.from-input .brgroup-input {
+    position: relative;
+    background: white;
+    border-radius: .1rem;
+    border:1PX solid #e4e3e8;
+    padding:.2rem .25rem;
+    margin-bottom:.2rem;
+    color:#b5b4bc;
+    font-size:.2rem;
+    width: 48%;
+    margin-left: 52%;
+    margin-bottom: 0.4rem;
+}
+
+.oiltil{
+    color:#b5b4bc;
+    font-size:.2rem;
+    margin-left: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.from-input .tgroup-input {
+    position: relative;
+    display: inline-block;
+    width: 32%;
+    border-radius: .1rem;
+    border:1PX solid #e4e3e8;
+    padding:.2rem .25rem;
+    margin:0 1.33% .4rem 0;
+    background: white;
+    font-size:.2rem;
+    color:#b5b4bc;
+
+}
+.from-input .tgroup-input input{
+    width: 100%;
+}
+.from-input .blgroup-input input{
+    width: 100%;
+}
+.from-input .brgroup-input input{
+    width: 100%;
+}

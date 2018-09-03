@@ -1,0 +1,135 @@
+.work-list {
+    position: relative;
+    padding:.24rem;
+    border:1PX solid #d6d4de;
+    border-radius:.1rem;
+    margin-bottom:.1rem;
+    background: white;
+    /*width: 6.9rem;*/
+    /*height: 2.4rem;*/
+    box-sizing: border-box;
+}
+.work-list .list-color1 {
+    color:#6b6b6b;
+}
+.work-list .list-color2 {
+    color:#9b9a9b;
+}
+.work-list .lv,.work-list .state {
+    position: absolute;
+}
+.work-list .lv {
+    font-size:.2rem;
+    top:.3rem;
+    left:.2rem;
+    width:.3rem;
+    height:.3rem;
+    line-height: .3rem;
+    text-align: center;
+    border:1PX solid #d7716e;
+    border-radius: 50%;
+    color:#d7716e;
+}
+.work-list .state {
+    font-size: .2rem;
+    top:.2rem;
+    right:.3rem;
+}
+.work-list .state div {
+    width:.4rem;
+    height:.4rem;
+    margin:0 auto .1rem;
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+/*状态*/
+.work-list .state.ONGOING div,li.ONGOING,
+.work-list .state.NoDOWN div,li.NoDOWN
+{
+    background-image: url('../../../static/images/state/going.png');
+}
+.work-list .state.ONGOING p,.work-list .state.ADOPT p
+,.work-list .state.NoDOWN p
+{
+    color:#489900;
+}
+.work-list .state.DELAYED div,li.DELAYED {
+    background-image: url('../../../static/images/state/delayed.png');
+}
+.work-list .state.DELAYED p,.work-list .state.handover p {
+    color:#de320a;
+}
+.work-list .state.HANDOVER div,li.HANDOVER {
+    background-image: url('../../../static/images/state/handover.png');
+}
+.work-list .state.COMPLETE div,li.COMPLETE {
+    background-image: url('../../../static/images/state/complete.png');
+}
+.work-list .state.COMPLETE p,.work-list .state.REVIEW p {
+    color:#b0b0b0;
+}
+.work-list .state.OVERDUE div,li.OVERDUE,.work-list .state.UNFINISHED div,li.UNFINISHED {
+    background-image: url('../../../static/images/state/overdue.png');
+}
+.work-list .state.UNFINISHED p {
+    color:#ff8400;
+}
+.work-list .state.ADOPT div,li.ADOPT {
+    background-image: url('../../../static/images/state/adopt.png');
+}
+.work-list .state.REJECT div,li.REJECT {
+    background-image: url('../../../static/images/state/reject.png');
+}
+
+.work-list .state.REVIEW div,li.REVIEW {
+    background-image: url('../../../static/images/state/in.png');
+}
+.work-list .state.REVIEW p {
+    color:#ff8400;
+}
+
+/*end*/
+.work-list .list-top {
+    font-size:32px;
+    border-bottom: 1PX solid #dad8e0;
+    /*max-height:.95rem;*/
+}
+.work-list .list-top .introduction {
+    padding-left:.4rem;
+    padding-top:.15rem;
+}
+.work-list .list-top .title {
+    font-weight: bold;
+    color:black;
+    /*padding-left: .1rem;*/
+    margin-bottom:.15rem;
+}
+.work-list .introduction .list-color1 {
+    margin-bottom: .15rem;
+}
+
+
+.work-list .list-bottom {
+    overflow: hidden;
+    font-size: .2rem;
+    margin-top:.25rem;
+}
+
+.work-list .list-bottom .am-flexbox >div:last-child span {
+    display: none;
+}
+
+.work-list .list-bottom .list-info {
+    position: relative;
+    text-align: center;
+}
+.work-list .list-bottom .list-info span {
+    content: "";
+    position: absolute;
+    height: .45rem;
+    background: #dad8e0;
+    right: 0;
+}
+.work-list .list-bottom .list-color2 {
+    margin-bottom: .15rem;
+}

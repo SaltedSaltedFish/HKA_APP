@@ -1,0 +1,108 @@
+.uploadPictures {
+  //border-top: solid 1PX #e4e3e8;
+}
+.uploadPictures .am-flexbox-item {
+  height: 1.32rem;
+  width: 2.02rem;
+}
+.uploadPictures .am-flexbox-item:last-child {
+  display: none;
+}
+.uploadPictures .am-image-picker-list .am-image-picker-upload-btn {
+  border-style: dashed;
+}
+.uploadPictures .am-image-picker-list .am-image-picker-upload-btn:after,
+.uploadPictures .am-image-picker-list .am-flexbox .am-flexbox-item:after{
+  display: none;
+}
+.uploadPictures .am-image-picker-list .am-image-picker-upload-btn:before {
+  font-size:.2rem;
+  color:#b6b4bc;
+  width: 100%;
+  height: 100%;
+  content: "PHOTOS";
+  padding-top: .9rem;
+  box-sizing: border-box;
+  text-align: center;
+  background: transparent url('../../../../static/images/camera.png') no-repeat 50% .3rem;
+  background-size: .4rem .35rem;
+}
+.uploadPictures .am-image-picker-list .am-flexbox {
+  overflow: hidden;
+}
+.from-input .group-input .uploadPictures {
+  padding-left:0;
+}
+
+.my-carousel .slider-list {
+  min-height:40vh !important;
+  overflow-y: auto;
+}
+.my-carousel img {
+  width: 100%;
+}
+
+
+/*上传图片样式*/
+.uploadPictures {
+  padding-top:.18rem;
+  margin:0 .16rem .3rem;
+}
+.uploadPictures ul {
+  overflow: hidden;
+  padding-left:1PX;
+  height: 1.5rem;
+}
+.uploadPictures ul li {
+  position: relative;
+  float: left;
+  border:1PX dashed #ddd;
+  width: 2.1rem;
+  height: 1.5rem;
+}
+.uploadPictures li .icon-listDelete {
+  right: 0;
+}
+.uploadPictures li img {
+  display: block;
+  width: 100%;
+}
+
+.uploadPictures ul li {
+  margin-right: .1rem;
+}
+.uploadPictures ul li:nth-child(3n) {
+  margin:0;
+  background: transparent;
+}
+.add-Photo {
+  position: relative;
+  border-radius: 6PX;
+  border: 1PX dashed #ddd;
+  text-align: center;
+}
+.add-Photo .icon-photo {
+  top: 0.3rem;
+  left: 34%;
+  width: .5rem;
+  height: .45rem;
+}
+.add-Photo p {
+  position: absolute;
+  bottom:0;
+  width: 100%;
+  margin-bottom:0 !important;
+}
+
+/*分组*/
+.grouping {
+  background: white;
+  padding: .3rem;
+  margin-bottom: .5rem;
+}
+.grouping > p.title {
+  margin-bottom: .2rem;
+  height: .5rem;
+  line-height: .5rem;
+  text-align: center;
+}

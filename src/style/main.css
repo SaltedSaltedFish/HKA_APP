@@ -1,0 +1,325 @@
+/*字体*/
+* {
+    box-sizing: border-box;
+}
+html,body {
+    font-family: "PingFang SC", "Helvetica Neue", "Hiragino Sans GB", Helvetica, "Microsoft YaHei", Arial;
+    -webkit-tap-highlight-color: transparent;
+}
+ul,h2,h3,p {
+    margin:0;
+    padding:0;
+}
+li {
+    list-style: none;
+    box-sizing: border-box;
+}
+a {
+    color:inherit;
+}
+
+/*下拉刷新*/
+.am-list-view-scrollview .am-list-body {
+    border:none !important;
+    background: transparent !important;
+    height:100%;
+}
+.am-list-view-scrollview .am-list-body:after {
+    border-bottom:none !important;
+}
+.am-list-view-scrollview {
+    height:76vh;
+}
+@media only screen and (min-height: 1024PX) {
+    .am-list-view-scrollview {
+        height:68vh;
+    }
+    .tabs.flight .am-list-view-scrollview {
+        height:54vh;
+    }
+}
+/*列表*/
+.am-list-body {
+    border:none !important;
+}
+
+/*字体大小*/
+.font16 {
+    font-size:.16PX;
+}
+.font22 {
+    font-size:.22PX;
+}
+.font26 {
+    font-size:.26PX;
+}
+/*下拉刷新等待*/
+/*.am-icon.am-icon-loading.am-icon-md {*/
+    /*background:url('../../static/images/loading.png') no-repeat;*/
+    /*background-size:.44rem;*/
+/*}*/
+.am-refresh-control-ptr-loading .am-activity-indicator {
+    padding:0;
+}
+/*下拉刷新宽度问题*/
+.am-list-view-scrollview-content {
+    width: 100%;
+}
+
+/*日期筛选样式*/
+.am-picker-popup-body {
+    position: relative;
+    padding-bottom: 1.4rem;
+}
+.am-picker-popup-body .am-picker-popup-header {
+    position: absolute;
+    bottom:0;
+    width:100%;
+}
+.am-picker-popup-header .am-picker-popup-header-left,.am-picker-popup-header .am-picker-popup-title {
+    display: none;
+}
+.am-picker-popup-header .am-picker-popup-header-right {
+    width:3rem;
+    height:.8rem;
+    line-height: .8rem;
+    color:white;
+    background: #c83a36;
+    border-radius: .5rem;
+    margin:.3rem auto;
+}
+.am-picker-popup-body .am-picker-popup-header:after {
+    display: none;
+}
+
+/*大写*/
+.uppercase {
+    text-transform: uppercase;
+}
+
+@media screen and (max-width:375px) {
+    .am-picker-popup-header .am-picker-popup-header-right {
+        font-size:14PX;
+    }
+}
+
+/*图标*/
+.icon-update {
+    right:0;
+    width: .85rem;
+    height: 100%;
+    background-size: .36rem !important;
+    background: url('../../static/images/update.png') no-repeat 50% .25rem;
+}
+.icon-ior {
+    width: .4rem;
+    height:.45rem;
+    background:url('../../static/images/icon/sms_icon_ior.svg');
+}
+.icon.icon-addSms {
+    background:url('../../static/images/icon/sms_icon_add.svg') no-repeat 50% 45%;
+    background-size: .45rem .42rem;
+}
+.icon-hzr {
+    width: .4rem;
+    height:.45rem;
+    background:url('../../static/images/icon/sms_icon_hzr.svg');
+}
+.icon-lruScanning {
+    width: .42rem;
+    height:.42rem;
+    background:url('../../static/images/icon/icon_scanLru.svg');
+}
+.icon-lruDelete {
+    width: .44rem;
+    height: .43rem;
+    background:url('../../static/images/LRU/icon_shanchu.svg');
+}
+.icon-lruSave {
+    width: .42rem;
+    height: .42rem;
+    background:url('../../static/images/LRU/icon-save.svg');
+}
+
+.icon-listDelete {
+    width: .38rem;
+    height: .38rem;
+    background:url('../../static/images/LRU/icon_delete.svg');
+    background-size: 100%;
+    animation: showAnimation .2s;
+}
+.icon-photo {
+    background:url('../../static/images/camera.png') no-repeat;
+    background-size: .4rem .35rem;
+}
+
+/*css icon*/
+.list-operation {
+    position: absolute;
+    top:-.08rem;
+    right:-.07rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: .38rem;
+}
+/*.css-delete {*/
+    /*position: relative;*/
+    /*width: .38rem;*/
+    /*height: .38rem;*/
+    /*background: #F45853;*/
+    /*border-radius: 50%;*/
+/*}*/
+/*.css-delete:after,.css-delete:before {*/
+    /*position: absolute;*/
+    /*left: 25%;*/
+    /*top: 50%;*/
+    /*content:'';*/
+    /*display: block;*/
+    /*width: 50%;*/
+    /*height: 1PX;*/
+    /*background: white;*/
+    /*margin:0 auto;*/
+/*}*/
+/*.css-delete:after {*/
+    /*transform: rotate(45deg);*/
+/*}*/
+/*.css-delete:before {*/
+    /*transform: rotate(-45deg);*/
+/*}*/
+
+/*对话遮罩*/
+/*.am-modal-mask {*/
+    /*z-index: 9999 !important;*/
+/*}*/
+/*.am-modal-wrap {*/
+    /*z-index: 99999 !important;*/
+/*}*/
+
+/*加载等待*/
+.am-activity-indicator {
+    padding:10PX;
+}
+.am-activity-indicator-spinner {
+    margin:0 auto;
+}
+
+/*航班工单列表高度*/
+.flightOrder .am-list-view-scrollview {
+    height:88vh;
+}
+
+/*弹窗显示模式*/
+.modalSelect.newView .am-modal-header {
+    padding:0;
+    height: .88rem;
+}
+.modalSelect.newView .am-modal-body  {
+    padding:0 .3rem;
+}
+.manual-details.newView {
+    padding-top:.35rem;
+}
+.modalSelect .am-modal-body {
+    max-height: 50vh;
+}
+
+/*animation*/
+@keyframes hideAnimation
+{
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes showAnimation
+{
+    0% {
+        opacity: .2;
+    }
+    50% {
+        opacity: .6;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.am-picker-popup-body .am-picker-popup-header .am-picker-popup-header-right {
+    text-align: center;
+    padding:0;
+}
+
+/*icon*/
+.icon-condition {
+    background:url('../../static/images/icon/condition.svg') no-repeat;
+}
+
+#common-header .icon-filter,#common-header .icon-condition {
+    right:0;
+    top:0;
+    width:.85rem;
+    height:100%;
+    background-size: .33rem .36rem;
+    background-position: 50%;
+}
+#common-header .icon-condition {
+    right:.85rem;
+    background-size: .5rem;
+    opacity: .8;
+}
+
+/*单选框BUG*/
+.modalSelect .am-list-item.am-list-item-active {
+    background-color:transparent;
+}
+.modalSelect .am-radio-item:active {
+    background-color:#ddd;
+}
+.modalSelect .am-list-body:after {
+    display: none;
+}
+
+.am-modal-content .am-list-item .am-list-line .am-list-content {
+    overflow: visible;
+    text-overflow: clip;
+    white-space: initial;
+}
+.am-modal-content .am-list .am-list-item.am-radio-item .am-list-line .am-list-extra .am-radio {
+    height:100%;
+}
+.am-modal-content .am-list-body div:not(:last-child) .am-list-line:after {
+    bottom:1PX;
+}
+
+/*禁用输入框*/
+input.disabled {
+    background: transparent;
+}
+textarea {
+    background: white;
+}
+/*全局等待背景*/
+.am-activity-indicator.am-activity-indicator-toast {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+/*加载容器*/
+.loadingBox {
+    position: relative;
+}
+.loadingBox .am-activity-indicator.am-activity-indicator-toast {
+    position: absolute;
+    z-index: 998;
+}
+
+/*整体容器*/
+.container {
+    height: 100%;
+}
